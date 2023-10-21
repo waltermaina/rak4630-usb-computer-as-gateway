@@ -99,9 +99,9 @@ MD_CirQueue Q(QUEUE_SIZE, sizeof(pushdata));
 unsigned long recordId = 0;
 
 // Sensor read and queue peek variables
-//#define SENSOR_READ_INTERVAL 3600000 // Every hour
+#define SENSOR_READ_INTERVAL 3600000 // Every hour
 //#define DATA_SEND_INTERVAL 3600000 // Every hour
-#define SENSOR_READ_INTERVAL  60000 // Every minute
+//#define SENSOR_READ_INTERVAL  60000 // Every minute
 //#define SENSOR_READ_INTERVAL  2000 // Every 2 seconds
 //#define DATA_SEND_INTERVAL    60000 // Every minute
 #define DATA_SEND_INTERVAL    2000 // Every two seconds
